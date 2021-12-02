@@ -2,10 +2,16 @@
 "name":"Download File Manager",
 "description":"Saves File according to file type",
  "version": "0.1",
-"permissions":["downloads"],
+"permissions":["downloads","storage"],
   "background": {
-    "scripts": ["background.js"],
+    "scripts": ["jquery-3.6.0.min.js","background.js","options.js"],
 	    "persistent": false
   },
+ 
+"options_ui": {
+    "page": "options.html",
+    "open_in_tab": true
+  },
+
  "manifest_version": 2
 }
