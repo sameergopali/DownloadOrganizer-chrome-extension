@@ -1,0 +1,36 @@
+.duplicate {
+    background: yellow;
+  }
+
+  #engines {
+    color: red margin-top: 0.10em;
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0.1em 0;
+  }
+
+  #engines th:first-child {
+    width: 1em;
+  }
+
+  #engines th:nth-child(2),
+  #engines td:nth-child(2) {
+    width: 10em;
+  }
+
+  #engines th:last-child,
+  #engines tr td:last-child {
+    width: 25px;
+    text-align: center;
+  }
+
+  #engines th:nth-child(5),
+  #engines td.engine-options {
+    width: 35px;
+    text-align: center;
+  }
+
+  #engines input {
+    width: 100%;
+    border: 1px solid #D4D4D4;
+  }
